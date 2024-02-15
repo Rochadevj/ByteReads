@@ -25,17 +25,4 @@
 
 }
 
-.lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    width: 60vw;
-    font-family: var(--fonte-principal);
-}
 
-.container__botao:checked~.lista-menu {
-display: block;
-}
-
-.lista-menu__titulo,
-.lista-menu__item {
