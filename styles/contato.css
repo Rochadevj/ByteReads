@@ -38,6 +38,10 @@
     padding-left: 2em;
 }
 
+.mensagem.hidden {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .contato{
         display: flex;
@@ -47,11 +51,11 @@
 
     .contato__descrição{
         margin-right: 1em;
+         width: 30%;
     }
 
     .contato__titulo{
         font-size: 24px;
-        width: 30%;
     }
 
     .contato__email{
