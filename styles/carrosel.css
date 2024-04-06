@@ -11,7 +11,7 @@
 
 
 .swiper-slide img {
-    width: 100%;
+    width: 97%;
 }
 
 
@@ -78,6 +78,14 @@
     font-family: var(--fonte-principal);
     font-weight: 700;
     text-decoration: none;
+}
+
+.swiper-slide {
+    transition: transform 0.5s ease; 
+}
+
+.swiper-slide:hover {
+    transform: scale(1.1); 
 }
 
 @media screen and (min-width: 1024px) {
