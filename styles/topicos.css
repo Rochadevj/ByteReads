@@ -11,6 +11,10 @@
     margin-bottom: 1em;
 }
 
+.tópicos__link:hover {
+    color: var(--laranja);
+    background-color: var(--branco);
+    }
 
 .tópicos__lista {
     display: flex;
