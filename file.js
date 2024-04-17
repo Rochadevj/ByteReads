@@ -2,15 +2,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const inputEmail = document.querySelector('.contato__email');
     const mensagem = document.querySelector('.mensagem');
 
-    // Remove a mensagem do DOM inicialmente
-    mensagem.classList.add('hidden'); // Adicionei a classe 'hidden' para ocultar a mensagem
+    mensagem.classList.add('hidden'); 
 
     inputEmail.addEventListener('keyup', function(event) {
-        if (event.keyCode === 13) { // Verifica se a tecla pressionada é Enter
-            event.preventDefault(); // Impede o envio do formulário
-            mensagem.classList.remove('hidden'); // Exibe a mensagem
-            inputEmail.style.display = 'none'; // Oculta o campo de e-mail
-            inputEmail.value = ''; // Limpa o campo de e-mail
+        if (event.keyCode === 13) { 
+            event.preventDefault(); 
+            mensagem.classList.remove('hidden'); 
+            inputEmail.style.display = 'none'; 
+            inputEmail.value = ''; 
         }
     });
 });
